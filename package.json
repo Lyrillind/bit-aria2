@@ -22,6 +22,8 @@
   "homepage": "https://github.com/MiincGu/bit-aria2#readme",
   "dependencies": {
     "aria2": "^1.2.0",
-    "bitbar": "^0.2.1"
+    "bitbar": "^0.2.1",
+    "node-notifier": "^4.5.0",
+    "numeral": "^1.5.3"
   }
 }
