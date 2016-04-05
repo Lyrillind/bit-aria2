@@ -1,6 +1,7 @@
 #!/usr/bin/env /usr/local/bin/node
 
 var numeral = require('numeral');
+var randomEmoji = require('random-emoji');
 var notifier = require('node-notifier');
 var bitbar = require('bitbar');
 var Aria2 = require('aria2');
@@ -64,7 +65,7 @@ aria2.send('tellActive', function (err, res) {
 
       var output = [
           {
-              text: numActive > 0 ? downloadSpeed : "no downloads",
+              text: numActive > 0 ? downloadSpeed : "◉",
               color: color,
               dropdown: false
           },
